@@ -18,11 +18,11 @@ author: David Kozak
 description: Personal page and resume
 avatar: profile.jpg
 email: dkozak94@gmail.com
-github: d-kozak # username
+github: d-kozak
 linkedin: dkozak94
 stackoverflow: users/8874553/david-kozák
-#Comment out if you don't want disqus
-#disqus: username
+
+disqus: d-kozak
 google_analytics: UA-69391421-1
 
 
