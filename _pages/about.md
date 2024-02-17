@@ -1,24 +1,25 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
   align: right
   image: pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Bozetechova 2</p>
     <p>Faculty Of Information Technology</p>
     <p>Brno University of Technology</p>
     <p>Brno, Czech Republic</p>
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+* Research Assistant at the GraalVM Team in Oracle Labs
+* Phd Student at FIT BUT
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

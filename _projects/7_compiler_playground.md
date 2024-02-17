@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Compiler playground
+description: Exploring compilers and virtual machines
 img:
-importance: 3
+importance: 7
 category: fun
 ---
 
