@@ -1,0 +1,4 @@
+- [ ] Add Erasmus to the eduction part of CV 
+- [ ] Add more projects (e.g. Enticing)
+- [ ] Explain RTA paper (maybe as project)
+- [ ] Add "my talks" section
