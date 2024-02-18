@@ -11,18 +11,27 @@ profile:
   more_info: >
     <p>Faculty Of Information Technology</p>
     <p>Brno University of Technology</p>
-    <p>Brno, Czech Republic</p>
+    <p>Czech Republic</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-* Research Assistant at the GraalVM Team in Oracle Labs
-* Phd Student at FIT BUT
+* **Research Assistant** at the [GraalVM Team](https://www.graalvm.org/) at [Oracle Labs](https://labs.oracle.com/)
+* **PhD Student** at the [VeriFIT Research Group](https://www.fit.vut.cz/research/group/verifit/.en) at [FIT BUT](https://www.fit.vut.cz/.en)
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My main interests are **programming language design, analysis, and implementation**. I'm interested in and fascinated about the whole infrastructure that *allows us to write efficient programs efficiently* ranging from compilers, interpreters, static analysis tools all the way to IDEs and tooling.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In my PhD, I focus on *improving closed-world ahead-of-time compilation using static analysis*.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I've been contributing for several years to the [Native Image](https://www.graalvm.org/latest/reference-manual/native-image/) ahead-of-time Java compiler, mainly in the area of *static analysis*.
+
+Apart from compilers, I'm also interested in *algorithmic problem solving*. I regularly solve tasks at [Leetcode](https://leetcode.com/dkozak94/) as an exercise and I also enjoy participating in [Advent of Code](https://adventofcode.com/). 
+
+*This is a personal website promoting my own work and research. All opinions expressed on this web page are my own and do not reflect the opinions of my employer.*
+
+
+
+
+
