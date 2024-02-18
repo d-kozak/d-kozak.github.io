@@ -1,4 +1,6 @@
+- [ ] Make sure the page can be found via google search
 - [ ] Add Erasmus to the eduction part of CV 
 - [ ] Add more projects (e.g. Enticing)
 - [ ] Explain RTA paper (maybe as project)
 - [ ] Add "my talks" section
+- [ ] Fix the style checks (links, formatting, etc)
