@@ -3,6 +3,8 @@ github_users:
 
 github_repos:
   - oracle/graal
+  - cloudhubs/graal_mvp
   - d-kozak/compiler-playground
   - d-kozak/advent-of-code-2023
   - d-kozak/enticing
+  

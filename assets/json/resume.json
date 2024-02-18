@@ -1,36 +1,73 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "David Kozak",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "email": "dkozak94@gmail.com",
+    "url": "https://d-kozak.github.io/",
+    "summary": "A passionate researcher interested in programming language desing, analysis, and implementation."
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "BeeeOn",
+      "position": "Android Developer",
+      "startDate": "2015-01-01",
+      "endDate": "2015-12-30",
+      "summary": "Worked on an Android application for IOT system. Added automated testing support.",
+      "highlights": ["Internet of Things", "Android", "Automated Testing"]
+    },
+    {
+      "name": "Automated Analysis and Verification Research Group - VeriFIT",
+      "position": "Java Developer in Research",
+      "url": "https://www.fit.vut.cz/research/group/verifit/.en",
+      "startDate": "2015-06-01",
+      "endDate": "2017-12-30",
+      "summary": "Search-based testing of concurrent Java programs using noise injection. Integrated SearchBestie with RoadRunner, an open-source tool for dynamic analysis of concurrent Java programs. Designed and evaluated new heuristics for noise injection.",
+      "highlights": ["Dynamic Analysis", "Concurrency", "Search-based Testing"]
+    },
+    {
+      "name": "Aura",
+      "position": "Java Full Stack Developer",
+      "url": "https://www.aura.cz/en",
+      "startDate": "2018-02-01",
+      "endDate": "2018-08-30",
+      "summary": "Worked on an information system using JavaEE, Spring and Hibernate. JSF on the presentation layer and Spring and Hibernate in the backend.",
+      "highlights": ["Spring", "Hibernate", "Java Server Faces"]
+    },
+    {
+      "name": "JetBrains",
+      "position": "Intern",
+      "url": "https://www.jetbrains.com/",
+      "startDate": "2018-07-01",
+      "endDate": "2018-08-30",
+      "summary": "DSL engineering and language engineering in general. Converting Antrl4 grammar into MPS project. Automatic detection of formatting for a given language.",
+      "highlights": ["MPS", "Domaind Specific Languages", "Antlr4"]
+    },
+    {
+      "name": "JetBrains",
+      "position": "Software Developer",
+      "url": "https://www.jetbrains.com/",
+      "startDate": "2018-09-01",
+      "endDate": "2019-02-01",
+      "summary": "Language engineering using MPS. Building and maintaining Domaing Specific Languages and IDE support for them.",
+      "highlights": ["MPS", "Domaind Specific Languages", "Metaprogramming"]
+    },
+    {
+      "name": "Knowledge Technology Research Group, FIT BUT",
+      "position": "Software Engineer",
+      "url": "https://www.fit.vut.cz/research/group/knot/.en",
+      "startDate": "2019-03-01",
+      "endDate": "2020-08-30",
+      "summary": "Worked on a search engine for semantically enhanced documents. Designed a distributed system with multiple types of components. Designed a special query language, a compiler and specialized searching algorithms. Backend components in Kotlin using Spring. Web frontend in TypeScript using React.",
+      "highlights": ["Search Engine","Distributed System", "Query DSL"]
+    },
+    {
+      "name": "GraalVM Team, Oracle Labs",
+      "position": "Research Assistant",
+      "url": "https://www.graalvm.org/",
+      "startDate": "2020-09-01",
+      "endDate": "now",
+      "summary": "Developing new static analysis methods for ahead-of-time compilers.",
+      "highlights": ["Call Graph Construction","Points-to Analysis","Compiler Optimizations"]
     }
   ],
   "volunteer": [

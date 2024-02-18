@@ -15,13 +15,13 @@ profile:
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 * **Research Assistant** at the [GraalVM Team](https://www.graalvm.org/) at [Oracle Labs](https://labs.oracle.com/)
 * **PhD Student** at the [VeriFIT Research Group](https://www.fit.vut.cz/research/group/verifit/.en) at [FIT BUT](https://www.fit.vut.cz/.en)
 
-My main interests are **programming language design, analysis, and implementation**. I'm interested in and fascinated about the whole infrastructure that *allows us to write efficient programs efficiently* ranging from compilers, interpreters, static analysis tools all the way to IDEs and tooling.
+My main interests are **programming language design, analysis, and implementation**. I'm interested in and fascinated about the whole infrastructure that *allows us to write efficient programs efficiently* ranging from compilers, interpreters, virtual machines, and static analysis tools all the way to IDEs and tooling.
 
 In my PhD, I focus on *improving closed-world ahead-of-time compilation using static analysis*.
 
