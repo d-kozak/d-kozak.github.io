@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /resources/
-title: PL Resources
-description: PL resources that I found useful and recommend to others.
+permalink: /bookshelf/
+title: Bookshelf
+description: Resources that I found useful and recommend to others.
 nav: true
 nav_order: 7
 ---
@@ -14,3 +14,6 @@ nav_order: 7
 
 ## Blog Posts
 - [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
+
+## Videos
+- [JVM Anatomy 101](https://www.youtube.com/watch?v=BeMi8K0AFAc&ab_channel=JetBrains)
