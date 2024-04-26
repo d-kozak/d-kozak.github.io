@@ -2,7 +2,7 @@
 layout: page
 permalink: /presentations/
 title: Presentations
-description: A list of my presentations
+description: A list of my presentations.
 nav: true
 related_publications: true
 nav_order: 6
