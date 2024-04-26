@@ -4,7 +4,7 @@ permalink: /bookshelf/
 title: Bookshelf
 description: Resources that I found useful and recommend to others.
 nav: true
-nav_order: 7
+nav_order: 8
 ---
 
 ## Courses

@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: The courses I am involved in as a PhD Student.
 nav: true
-nav_order: 6
+nav_order: 7
 related_publications: true
 ---
 
