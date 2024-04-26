@@ -18,20 +18,16 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-* **Research Assistant** at the [GraalVM Team](https://www.graalvm.org/) at [Oracle Labs](https://labs.oracle.com/)
-* **PhD Student** at the [VeriFIT Research Group](https://www.fit.vut.cz/research/group/verifit/.en) at [FIT BUT](https://www.fit.vut.cz/.en)
 
-My main interests are **programming language design, analysis, and implementation**. I'm interested in and fascinated about the whole infrastructure that *allows us to write efficient programs efficiently* ranging from compilers, interpreters, virtual machines, and static analysis tools all the way to IDEs and tooling.
+- **Research Assistant** at the [GraalVM Team](https://www.graalvm.org/) at [Oracle Labs](https://labs.oracle.com/)
+- **PhD Student** at the [VeriFIT Research Group](https://www.fit.vut.cz/research/group/verifit/.en) at [FIT BUT](https://www.fit.vut.cz/.en)
 
-In my PhD, I focus on *improving closed-world ahead-of-time compilation using static analysis*.
+My main interests are **programming language design, analysis, and implementation**. I'm interested in and fascinated about the whole infrastructure that _allows us to write efficient programs efficiently_ ranging from compilers, interpreters, virtual machines, and static analysis tools all the way to IDEs and tooling.
 
-I've been contributing for several years to the [Native Image](https://www.graalvm.org/latest/reference-manual/native-image/) ahead-of-time Java compiler, mainly in the area of *static analysis*.
+In my PhD, I focus on _improving closed-world ahead-of-time compilation using static analysis_.
 
-Apart from compilers, I'm also interested in *algorithmic problem solving*. I regularly solve tasks at [Leetcode](https://leetcode.com/dkozak94/) as an exercise and I also enjoy participating in [Advent of Code](https://adventofcode.com/). 
+I've been contributing for several years to the [Native Image](https://www.graalvm.org/latest/reference-manual/native-image/) ahead-of-time Java compiler, mainly in the area of _static analysis_.
 
-*This is a personal website promoting my own work and research. All opinions expressed on this web page are my own and do not reflect the opinions of my employer.*
+Apart from compilers, I'm also interested in _algorithmic problem solving_. I regularly solve tasks at [Leetcode](https://leetcode.com/dkozak94/) as an exercise and I also enjoy participating in [Advent of Code](https://adventofcode.com/).
 
-
-
-
-
+_This is a personal website promoting my own work and research. All opinions expressed on this web page are my own and do not reflect the opinions of my employer._

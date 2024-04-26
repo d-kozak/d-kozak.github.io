@@ -58,7 +58,7 @@
       "startDate": "2019-03-01",
       "endDate": "2020-08-30",
       "summary": "Worked on a search engine for semantically enhanced documents. Designed a distributed system with multiple types of components. Designed a special query language, a compiler and specialized searching algorithms. Backend components in Kotlin using Spring. Web frontend in TypeScript using React.",
-      "highlights": ["Search Engine","Distributed System", "Query DSL"]
+      "highlights": ["Search Engine", "Distributed System", "Query DSL"]
     },
     {
       "name": "GraalVM Team, Oracle Labs",
@@ -67,7 +67,7 @@
       "startDate": "2020-09-01",
       "endDate": "now",
       "summary": "Developing new static analysis methods for ahead-of-time compilers.",
-      "highlights": ["Call Graph Construction","Points-to Analysis","Compiler Optimizations"]
+      "highlights": ["Call Graph Construction", "Points-to Analysis", "Compiler Optimizations"]
     }
   ],
   "education": [
@@ -104,7 +104,7 @@
       "startDate": "2017-08-01",
       "endDate": "2019-09-01",
       "summary": "Helped foreign students during their Erasmus in Brno. Taught Czech lessons. Organized events for hundreds of Erasmus students. Communicated and cooperated with people from different cultures and backgrounds.",
-      "highlights": ["Helping Foreign Students","Event Organization","Teaching Czech"]
+      "highlights": ["Helping Foreign Students", "Event Organization", "Teaching Czech"]
     },
     {
       "organization": "Erasmus Student Network BUT",
@@ -161,61 +161,38 @@
       "title": "EBEC Brno",
       "date": "2016-05",
       "summary": "Second place."
-    }    
+    }
   ],
   "skills": [
     {
       "name": "General",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Problem Solving",
-        "Algorithms and Data Structures",
-        "Software Design and Architecture"
-      ]
+      "keywords": ["Problem Solving", "Algorithms and Data Structures", "Software Design and Architecture"]
     },
     {
       "name": "Specialization",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Compilers",
-        "Interpreters",
-        "Virtual Machines",
-        "Static and Dynamic Analysis"
-      ]
+      "keywords": ["Compilers", "Interpreters", "Virtual Machines", "Static and Dynamic Analysis"]
     },
     {
       "name": "Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Kotlin",
-        "JavaScript/TypeScript",
-        "Java",
-        "Python"
-      ]
+      "keywords": ["Kotlin", "JavaScript/TypeScript", "Java", "Python"]
     },
     {
       "name": "Frameworks and Libraries",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "React & Redux",
-        "JavaFX",
-        "Java EE",
-        "JPA/Hibernate",
-        "Spring"
-      ]
+      "keywords": ["React & Redux", "JavaFX", "Java EE", "JPA/Hibernate", "Spring"]
     },
     {
       "name": "Soft Skills",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Public Speaking",
-        "Teaching"
-      ]
+      "keywords": ["Public Speaking", "Teaching"]
     }
   ],
   "interests": [
@@ -227,7 +204,7 @@
     {
       "name": "Dancing",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Zouk/Lambada","Argentine Tango"]
+      "keywords": ["Zouk/Lambada", "Argentine Tango"]
     },
     {
       "name": "Personal Development",

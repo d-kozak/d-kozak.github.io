@@ -9,7 +9,6 @@ related_publications: true
 github: https://github.com/oracle/graal
 ---
 
-I am fortunate enough to base my research on a real world industry ready virtual machine. In particular, my research aims at improving the static analysis used in [GraalVM Native Image](https://www.graalvm.org/latest/reference-manual/native-image/), which is an ahead-of-time compiler for Java. 
+I am fortunate enough to base my research on a real world industry ready virtual machine. In particular, my research aims at improving the static analysis used in [GraalVM Native Image](https://www.graalvm.org/latest/reference-manual/native-image/), which is an ahead-of-time compiler for Java.
 
 My first paper was about speeding up Native Image compilation with a faster analysis {% cite mplr23 %} and now we have a few other papers on the go, which should hopefully appear here shortly.
-
