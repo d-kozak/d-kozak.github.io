@@ -26,6 +26,7 @@
   author = {Richard Hutcheson and Austin Blanchard and Noah Lambaria and Jack Hale and David Kozak, Amr Elsayed and Tomas Cerny},
   title = {Software Architecture Reconstruction for Microservice Systems Using Static Analysis via GraalVM Native Image},
   year = {2024},
+  booktitle = {SANER 2024},
   publisher = {Institute of Electrical and Electronics Engineers},
   url = {https://conf.researchr.org/details/saner-2024/saner-2024-papers/94/Software-Architecture-Reconstruction-for-Microservice-Systems-Using-GraalVM-Native-Im},
   abstract = {Microservices are the mainstream architecture when designing cloud-native systems. The performance and elastic scalability of such systems are the main attraction for many vendors. Recent advancements improving microservice initialization times are related to the ahead-of-time compilation, which produces self-contained executables, significantly reducing load times. Despite recent advancements and various benefits of cloud-native systems, the evolution of such systems might be threatened by a missing system-centered view. Such a view would guide in a better contextual understanding of individual microservices and their dependencies from the holistic system perspective and aid developers in informed decisions to mitigate ripple effects. One way literature has addressed this gap is by performing Software Architecture Reconstruction (SAR), a process essential for understanding, maintaining, and evolving software systems. This paper questions whether instruments used to produce self-contained executables for microservices can be utilized for SAR, producing system-centered views. We propose a methodology for such a process, implement a proof of concept tool, MicroGraal, for the Java Platform, and assess it through a case study involving a third-party microservice system benchmark. We uncovered a system service dependency graph and a context map, comparing the approach and obtained results with source code analysis},
@@ -35,6 +36,20 @@
   bibtex_show={true},
   html={https://conf.researchr.org/details/saner-2024/saner-2024-papers/94/Software-Architecture-Reconstruction-for-Microservice-Systems-Using-GraalVM-Native-Im},
   abbr={SANER},
+  selected={true}
+}
+@inproceedings{pldi24,
+  author = {Kozak, David and Stancu, Codrut and Wimmer, Christian and Wurthinger, Thomas},
+  title = {Scaling Type-Based Points-to Analysis with Saturation},
+  year = {2024},
+  booktitle = {PLDI 2024},
+  url = {https://d-kozak.github.io/assets/pdf/pldi24.pdf},
+  doi = {10.1145/3617651.3622980},
+  abstract = {Designing a whole-program static analysis requires trade-offs between precision and scalability. While a context-insensitive points-to analysis is often considered a good compromise, it still has non-linear complexity that leads to scalability problems when analyzing large applications. On the other hand, rapid type analysis scales well but lacks precision. We use saturation in a context-insensitive type-based points-to analysis to make it as scalable as a rapid type analysis, while preserving most of the precision of the points-to analysis. With saturation, the points-to analysis only propagates small points-to sets for variables. If a variable can have more values than a certain threshold, the variable and all its usages are considered saturated and no longer analyzed. Our implementation in the points-to analysis of GraalVM Native Image, a closed-world approach to build standalone binaries for Java applications, shows that saturation allows GraalVM Native Image to analyze large Java applications with hundreds of thousands of methods in less than two minutes.},
+  series = {PLDI 2024},
+  bibtex_show={true},
+  pdf={https://d-kozak.github.io/assets/pdf/pldi24.pdf},
+  abbr={PLDI},
   selected={true}
 }
 % preview={brownian-motion.gif}
