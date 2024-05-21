@@ -14,6 +14,8 @@ nav_order: 6
     - [Video](https://youtu.be/yJierMrYF3s?si=6H1eivF97loNt4FD)
 - A presentation of the paper *Software Architecture Reconstruction for Microservice Systems Using Static Analysis via GraalVM Native Image* at SANER 2024 {% cite saner24 %}.
     - [Slides](https://d-kozak.github.io/assets/pdf/slides/saner24.pdf)
+- FIT BUT Doctoral Seminar
+    - [Slides](https://d-kozak.github.io/assets/pdf/slides/doctoral-seminar24.pdf)
 
 # Czech
 - *Oracle GraalVM* at OpenAlt 2023.
