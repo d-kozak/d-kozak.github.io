@@ -16,6 +16,7 @@ nav_order: 8
 ## Blog Posts
 
 - [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
+- [Scheduling Internals](https://tontinton.com/posts/scheduling-internals/)
 
 ## Videos
 
