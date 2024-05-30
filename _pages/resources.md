@@ -18,6 +18,9 @@ nav_order: 8
 - [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
 - [Scheduling Internals](https://tontinton.com/posts/scheduling-internals/)
 
+## Java
+- [Inside Java][https://inside.java/]
+
 ## Videos
 
 - [JVM Anatomy 101](https://www.youtube.com/watch?v=BeMi8K0AFAc&ab_channel=JetBrains)
