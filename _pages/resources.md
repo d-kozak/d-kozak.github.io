@@ -19,7 +19,7 @@ nav_order: 8
 - [Scheduling Internals](https://tontinton.com/posts/scheduling-internals/)
 
 ## Java
-- [Inside Java][https://inside.java/]
+- [Inside Java](https://inside.java/)
 
 ## Videos
 
