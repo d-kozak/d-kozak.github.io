@@ -55,5 +55,5 @@ nav_order: 8
 ## Other Pages with Good Resources
 - [Webpage of Chris Seaton](https://chrisseaton.com/)
 - [https://bernsteinbear.com/pl-resources/](https://bernsteinbear.com/pl-resources/)
-- [Awesome Compuilers on github](https://github.com/aalhour/awesome-compilers)
-- [https://plzoo.andrej.com/](https://plzoo.andrej.com/)
+- [Awesome Compilers on github](https://github.com/aalhour/awesome-compilers)
+- [The Programming Languages Zoo](https://plzoo.andrej.com/)
