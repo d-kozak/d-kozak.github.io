@@ -16,9 +16,13 @@ nav_order: 8
   - the page is in Czech, but the slides are in English
 
 ## Blog Posts
-
+- [Understanding Basic Graal Graphs](https://chrisseaton.com/truffleruby/basic-graal-graphs/)
 - [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
 - [Scheduling Internals](https://tontinton.com/posts/scheduling-internals/)
+- [Atomic Polling Intervals for Highly Concurrent Workloads](https://www.byronwasti.com/polling-atomics/)
+
+## Books
+- [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
 
 ## Java
 
@@ -26,11 +30,28 @@ nav_order: 8
 - [A categorized list of all Java and JVM features since JDK 8 to 21](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-21/)
 
 ## Videos
-
+- [GraalVM Native Image: Large-scale static analysis for Java - Christian Wimmer](https://youtu.be/rLP-8q3Cb8M?si=zDy5r1kwo0gH0bhj)
+- [Graal Tutorial at PLDI 2017 conference - Christian Wimmer](https://youtu.be/5_Y3kc--eTI?si=jMZ86yXAUs0RA3MR)
+- [One VM to Rule Them All, One VM to Bind Them](https://youtu.be/FJY96_6Y3a4?si=YJMm8csCJmUzNavU)
 - [JVM Anatomy 101](https://www.youtube.com/watch?v=BeMi8K0AFAc&ab_channel=JetBrains)
+- [Modernizing Compiler Design for Carbon Toolchain - Chandler Carruth](https://youtu.be/ZI198eFghJk?si=ELY86tQDK_1pAgEX)
 
 ## Podcasts
 
 - [We Speak Your Language](https://www.raincodelabs.com/wespeakyourlanguage/)
 - [Huberman Lab](https://www.hubermanlab.com/)
 - [Inside Java Podcast](https://inside.java/podcast/)
+
+## Compilers
+- [V8](https://v8.dev/)
+- [SpiderMonkey](https://spidermonkey.dev/)
+
+## Tools
+- [Truffle Language Implementation Framework](https://www.graalvm.org/latest/graalvm-as-a-platform/language-implementation-framework/)
+- [Cranelift compiler backend](https://cranelift.dev/)
+
+## Other Pages with Good Resources
+- [Webpage of Chris Seaton](https://chrisseaton.com/)
+- [https://bernsteinbear.com/pl-resources/](https://bernsteinbear.com/pl-resources/)
+- [Awesome Compuilers on github](https://github.com/aalhour/awesome-compilers)
+- [https://plzoo.andrej.com/](https://plzoo.andrej.com/)
