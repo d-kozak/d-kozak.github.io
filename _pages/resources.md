@@ -17,6 +17,7 @@ nav_order: 8
 
 ## Blog Posts
 - [Understanding Basic Graal Graphs](https://chrisseaton.com/truffleruby/basic-graal-graphs/)
+- [Writing Truly Memory Safe JIT Compilers](https://medium.com/graalvm/writing-truly-memory-safe-jit-compilers-f79ad44558dd)
 - [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
 - [Scheduling Internals](https://tontinton.com/posts/scheduling-internals/)
 - [Atomic Polling Intervals for Highly Concurrent Workloads](https://www.byronwasti.com/polling-atomics/)
@@ -32,7 +33,8 @@ nav_order: 8
 ## Videos
 - [GraalVM Native Image: Large-scale static analysis for Java - Christian Wimmer](https://youtu.be/rLP-8q3Cb8M?si=zDy5r1kwo0gH0bhj)
 - [Graal Tutorial at PLDI 2017 conference - Christian Wimmer](https://youtu.be/5_Y3kc--eTI?si=jMZ86yXAUs0RA3MR)
-- [One VM to Rule Them All, One VM to Bind Them](https://youtu.be/FJY96_6Y3a4?si=YJMm8csCJmUzNavU)
+- [One VM to Rule Them All, One VM to Bind Them - Christian Wimmer](https://youtu.be/FJY96_6Y3a4?si=YJMm8csCJmUzNavU)
+- [Dynamic Metacompilation with Truffle - Christian Humer](https://youtu.be/pksRrON5XfU?si=ej6ZYao52bkt0gHe)
 - [JVM Anatomy 101](https://www.youtube.com/watch?v=BeMi8K0AFAc&ab_channel=JetBrains)
 - [Modernizing Compiler Design for Carbon Toolchain - Chandler Carruth](https://youtu.be/ZI198eFghJk?si=ELY86tQDK_1pAgEX)
 
