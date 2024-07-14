@@ -22,6 +22,7 @@ nav_order: 8
 - [Scheduling Internals](https://tontinton.com/posts/scheduling-internals/)
 - [Atomic Polling Intervals for Highly Concurrent Workloads](https://www.byronwasti.com/polling-atomics/)
 - [Beating the compiler (using hand-written assembly with threaded code to speed up Uxn interpreter)](https://www.mattkeeter.com/blog/2024-07-12-interpreter/)
+- [Computed goto for efficient dispatch tables](https://eli.thegreenplace.net/2012/07/12/computed-goto-for-efficient-dispatch-tables)
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
