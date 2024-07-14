@@ -41,6 +41,11 @@ nav_order: 8
 - [Advanced Topics in Programming Languages: Concurrency and Message Passing in Newsqueak](https://youtu.be/HmxnCEa8Ctw?si=B0PzhuulxkFk1ZJH)
 - [Modernizing Compiler Design for Carbon Toolchain - Chandler Carruth](https://youtu.be/ZI198eFghJk?si=ELY86tQDK_1pAgEX)
 
+## Blogs
+- [Matt Keeter's blog](https://www.mattkeeter.com/blog/)
+- [Bob Nystrom's blog](https://journal.stuffwithstuff.com/)
+- [Max Bernstein's blog](https://bernsteinbear.com/blog/)
+
 ## Podcasts
 
 - [We Speak Your Language](https://www.raincodelabs.com/wespeakyourlanguage/)
