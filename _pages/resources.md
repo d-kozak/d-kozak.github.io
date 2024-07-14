@@ -21,6 +21,7 @@ nav_order: 8
 - [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
 - [Scheduling Internals](https://tontinton.com/posts/scheduling-internals/)
 - [Atomic Polling Intervals for Highly Concurrent Workloads](https://www.byronwasti.com/polling-atomics/)
+- [Beating the compiler (using hand-written assembly with threaded code to speed up Uxn interpreter)](https://www.mattkeeter.com/blog/2024-07-12-interpreter/)
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
@@ -36,6 +37,8 @@ nav_order: 8
 - [One VM to Rule Them All, One VM to Bind Them - Christian Wimmer](https://youtu.be/FJY96_6Y3a4?si=YJMm8csCJmUzNavU)
 - [Dynamic Metacompilation with Truffle - Christian Humer](https://youtu.be/pksRrON5XfU?si=ej6ZYao52bkt0gHe)
 - [JVM Anatomy 101](https://www.youtube.com/watch?v=BeMi8K0AFAc&ab_channel=JetBrains)
+- [Advanced Topics in Programming Languages: The Java Memory Model](https://youtu.be/WTVooKLLVT8?si=Xp7qlqjMjNIq6ipV)
+- [Advanced Topics in Programming Languages: Concurrency and Message Passing in Newsqueak](https://youtu.be/HmxnCEa8Ctw?si=B0PzhuulxkFk1ZJH)
 - [Modernizing Compiler Design for Carbon Toolchain - Chandler Carruth](https://youtu.be/ZI198eFghJk?si=ELY86tQDK_1pAgEX)
 
 ## Podcasts
