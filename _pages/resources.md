@@ -46,6 +46,7 @@ nav_order: 8
 - [Matt Keeter's blog](https://www.mattkeeter.com/blog/)
 - [Bob Nystrom's blog](https://journal.stuffwithstuff.com/)
 - [Max Bernstein's blog](https://bernsteinbear.com/blog/)
+- [Eli Bendersky's website](https://eli.thegreenplace.net/)
 
 ## Podcasts
 
