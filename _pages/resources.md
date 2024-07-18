@@ -23,6 +23,8 @@ nav_order: 8
 - [Atomic Polling Intervals for Highly Concurrent Workloads](https://www.byronwasti.com/polling-atomics/)
 - [Beating the compiler (using hand-written assembly with threaded code to speed up Uxn interpreter)](https://www.mattkeeter.com/blog/2024-07-12-interpreter/)
 - [Computed goto for efficient dispatch tables](https://eli.thegreenplace.net/2012/07/12/computed-goto-for-efficient-dispatch-tables)
+- [M3: Massey Meta Machine](https://github.com/wasm3/wasm3/blob/main/docs/Interpreter.md#m3-massey-meta-machine)
+- [How to land a change to LLVM in 20 easy patches](https://lukelau.me/2024/07/17/how-to-land-a-change-to-llvm-in-20-easy-patches.html)
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
