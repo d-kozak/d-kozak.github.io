@@ -26,6 +26,7 @@ nav_order: 8
 - [M3: Massey Meta Machine](https://github.com/wasm3/wasm3/blob/main/docs/Interpreter.md#m3-massey-meta-machine)
 - [How to land a change to LLVM in 20 easy patches](https://lukelau.me/2024/07/17/how-to-land-a-change-to-llvm-in-20-easy-patches.html)
 - [Do Not Taunt Happy Fun Branch Predictor](https://www.mattkeeter.com/blog/2023-01-25-branch/)
+- [Crafting an interpreter with Rust](https://ceronman.com/2021/07/22/my-experience-crafting-an-interpreter-with-rust/)
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
