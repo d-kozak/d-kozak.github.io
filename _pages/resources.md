@@ -27,6 +27,7 @@ nav_order: 8
 - [How to land a change to LLVM in 20 easy patches](https://lukelau.me/2024/07/17/how-to-land-a-change-to-llvm-in-20-easy-patches.html)
 - [Do Not Taunt Happy Fun Branch Predictor](https://www.mattkeeter.com/blog/2023-01-25-branch/)
 - [Crafting an interpreter with Rust](https://ceronman.com/2021/07/22/my-experience-crafting-an-interpreter-with-rust/)
+- [Bril: An Intermediate Language for Teaching Compilers](https://www.cs.cornell.edu/~asampson/blog/bril.html?ref=dailydev)
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
