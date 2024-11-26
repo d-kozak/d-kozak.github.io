@@ -37,6 +37,7 @@ nav_order: 8
 
 - [Inside Java](https://inside.java/)
 - [A categorized list of all Java and JVM features since JDK 8 to 21](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-21/)
+- [Java Object Headers and Compressed OOPS](https://www.happycoders.eu/java/object-headers-compressed-oops/)
 
 ## Videos
 - [GraalVM Native Image: Large-scale static analysis for Java - Christian Wimmer](https://youtu.be/rLP-8q3Cb8M?si=zDy5r1kwo0gH0bhj)
