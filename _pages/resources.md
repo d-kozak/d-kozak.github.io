@@ -56,6 +56,7 @@ nav_order: 8
 - [Max Bernstein's blog](https://bernsteinbear.com/blog/)
 - [Eli Bendersky's website](https://eli.thegreenplace.net/)
 - [Chandler Carruth's blog](https://chandlerc.blog/)
+- [Edoardo Vacchi's blog](https://blog.evacchi.dev/)
 
 ## Podcasts
 
