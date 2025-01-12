@@ -58,6 +58,7 @@ nav_order: 8
 - [Eli Bendersky's website](https://eli.thegreenplace.net/)
 - [Chandler Carruth's blog](https://chandlerc.blog/)
 - [Edoardo Vacchi's blog](https://blog.evacchi.dev/)
+- [Maxime Chevalier-Boisvert's blog](https://pointersgonewild.com/about/)
 
 ## Podcasts
 
