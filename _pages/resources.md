@@ -52,6 +52,7 @@ nav_order: 8
 - [Modernizing Compiler Design for Carbon Toolchain - Chandler Carruth](https://youtu.be/ZI198eFghJk?si=ELY86tQDK_1pAgEX)
 
 ## Blogs
+- [Russ Cox's blog](https://research.swtch.com/)
 - [Matt Keeter's blog](https://www.mattkeeter.com/blog/)
 - [Bob Nystrom's blog](https://journal.stuffwithstuff.com/)
 - [Max Bernstein's blog](https://bernsteinbear.com/blog/)
