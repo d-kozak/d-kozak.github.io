@@ -28,6 +28,7 @@ nav_order: 8
 - [Do Not Taunt Happy Fun Branch Predictor](https://www.mattkeeter.com/blog/2023-01-25-branch/)
 - [Crafting an interpreter with Rust](https://ceronman.com/2021/07/22/my-experience-crafting-an-interpreter-with-rust/)
 - [Bril: An Intermediate Language for Teaching Compilers](https://www.cs.cornell.edu/~asampson/blog/bril.html?ref=dailydev)
+- [A catalog of ways to generate SSA](https://bernsteinbear.com/blog/ssa/)
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
