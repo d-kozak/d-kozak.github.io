@@ -29,6 +29,7 @@ nav_order: 8
 - [Crafting an interpreter with Rust](https://ceronman.com/2021/07/22/my-experience-crafting-an-interpreter-with-rust/)
 - [Bril: An Intermediate Language for Teaching Compilers](https://www.cs.cornell.edu/~asampson/blog/bril.html?ref=dailydev)
 - [A catalog of ways to generate SSA](https://bernsteinbear.com/blog/ssa/)
+- [The simplicity of Prolog](https://bitsandtheorems.com/the-simplicity-of-prolog/)
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
