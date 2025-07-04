@@ -65,6 +65,15 @@
       "position": "Research Assistant",
       "url": "https://www.graalvm.org/",
       "startDate": "2020-09-01",
+      "endDate": "2024-12-15",
+      "summary": "Developing new static analysis methods for ahead-of-time compilers.",
+      "highlights": ["Call Graph Construction", "Points-to Analysis", "Compiler Optimizations"]
+    },
+    {
+      "name": "GraalVM Team, Oracle Labs",
+      "position": "Senior Researcher",
+      "url": "https://www.graalvm.org/",
+      "startDate": "2024-12-15",
       "endDate": "now",
       "summary": "Developing new static analysis methods for ahead-of-time compilers.",
       "highlights": ["Call Graph Construction", "Points-to Analysis", "Compiler Optimizations"]
