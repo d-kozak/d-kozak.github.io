@@ -30,6 +30,7 @@ nav_order: 8
 - [Bril: An Intermediate Language for Teaching Compilers](https://www.cs.cornell.edu/~asampson/blog/bril.html?ref=dailydev)
 - [A catalog of ways to generate SSA](https://bernsteinbear.com/blog/ssa/)
 - [The simplicity of Prolog](https://bitsandtheorems.com/the-simplicity-of-prolog/)
+- [Faster interpreters in Go: Catching up with C++](https://planetscale.com/blog/faster-interpreters-in-go-catching-up-with-cpp)
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
