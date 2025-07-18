@@ -31,6 +31,7 @@ nav_order: 8
 - [A catalog of ways to generate SSA](https://bernsteinbear.com/blog/ssa/)
 - [The simplicity of Prolog](https://bitsandtheorems.com/the-simplicity-of-prolog/)
 - [Faster interpreters in Go: Catching up with C++](https://planetscale.com/blog/faster-interpreters-in-go-catching-up-with-cpp)
+- [Suggestions on implementing an efficient instruction set simulator in LuaJIT2](http://lua-users.org/lists/lua-l/2011-02/msg00742.html)
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
