@@ -32,6 +32,7 @@ nav_order: 8
 - [The simplicity of Prolog](https://bitsandtheorems.com/the-simplicity-of-prolog/)
 - [Faster interpreters in Go: Catching up with C++](https://planetscale.com/blog/faster-interpreters-in-go-catching-up-with-cpp)
 - [Suggestions on implementing an efficient instruction set simulator in LuaJIT2](http://lua-users.org/lists/lua-l/2011-02/msg00742.html)
+- [Parsing Protobuf at 2+GB/s: How I Learned To Love Tail Calls in C](https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html)
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
