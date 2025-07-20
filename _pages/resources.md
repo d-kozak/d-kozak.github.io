@@ -65,6 +65,7 @@ nav_order: 8
 - [Chandler Carruth's blog](https://chandlerc.blog/)
 - [Edoardo Vacchi's blog](https://blog.evacchi.dev/)
 - [Maxime Chevalier-Boisvert's blog](https://pointersgonewild.com/about/)
+- [Josh Haberman's blog](https://blog.reverberate.org/)
 
 ## Podcasts
 
