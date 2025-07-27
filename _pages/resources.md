@@ -34,6 +34,9 @@ nav_order: 8
 - [Suggestions on implementing an efficient instruction set simulator in LuaJIT2](http://lua-users.org/lists/lua-l/2011-02/msg00742.html)
 - [Parsing Protobuf at 2+GB/s: How I Learned To Love Tail Calls in C](https://blog.reverberate.org/2021/04/21/musttail-efficient-interpreters.html)
 - [A Tail Calling Interpreter For Python (And Other Updates)](https://blog.reverberate.org/2025/02/10/tail-call-updates.html#fnref:0)
+- [The Prospero Challenge](https://www.mattkeeter.com/projects/prospero/)
+- [Solving the Prospero challenge](https://www.refice.dev/blog/prospero-challenge/)
+- [Prospero challenge, now with more garbage collection](https://bernsteinbear.com/blog/prospero/)
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
