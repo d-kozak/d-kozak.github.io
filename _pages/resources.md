@@ -38,7 +38,7 @@ nav_order: 8
 - [Solving the Prospero challenge](https://www.refice.dev/blog/prospero-challenge/)
 - [Prospero challenge, now with more garbage collection](https://bernsteinbear.com/blog/prospero/)
 - [Multi-Core By Default](https://www.rfleury.com/p/multi-core-by-default)
-
+- [Untangling Lifetimes: The Arena Allocator Making performant dynamic manual memory management in C feel almost like garbage collection.](https://www.rfleury.com/p/untangling-lifetimes-the-arena-allocator)
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
@@ -73,6 +73,7 @@ nav_order: 8
 - [Maxime Chevalier-Boisvert's blog](https://pointersgonewild.com/about/)
 - [Josh Haberman's blog](https://blog.reverberate.org/)
 - [Digital Grove](https://www.rfleury.com/)
+- [Dangling Pointers](https://danglingpointers.substack.com/)
 
 ## Podcasts
 
