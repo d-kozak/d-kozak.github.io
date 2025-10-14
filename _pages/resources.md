@@ -37,6 +37,8 @@ nav_order: 8
 - [The Prospero Challenge](https://www.mattkeeter.com/projects/prospero/)
 - [Solving the Prospero challenge](https://www.refice.dev/blog/prospero-challenge/)
 - [Prospero challenge, now with more garbage collection](https://bernsteinbear.com/blog/prospero/)
+- [Multi-Core By Default](https://www.rfleury.com/p/multi-core-by-default)
+
 
 ## Books
 - [Crafting Interpreters by Robert Nystrom](https://craftinginterpreters.com/)
@@ -70,6 +72,7 @@ nav_order: 8
 - [Edoardo Vacchi's blog](https://blog.evacchi.dev/)
 - [Maxime Chevalier-Boisvert's blog](https://pointersgonewild.com/about/)
 - [Josh Haberman's blog](https://blog.reverberate.org/)
+- [Digital Grove](https://www.rfleury.com/)
 
 ## Podcasts
 
