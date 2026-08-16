@@ -329,12 +329,6 @@
       root.hidden = false;
       document.body.classList.add("quick-note-open");
       hideHistory();
-      const draft = readJson(draftKey, null);
-      if (draft?.content && !editor.value) {
-        currentId = draft.id || null;
-        currentCreatedAt = draft.createdAt || Date.now();
-        editor.value = draft.content;
-      }
       renderEditor();
       requestAnimationFrame(() => {
         editor.focus();
@@ -421,12 +415,26 @@
       }
     });
 
-    const draft = readJson(draftKey, null);
-    if (draft?.content) {
-      currentId = draft.id || null;
-      currentCreatedAt = draft.createdAt || Date.now();
-      editor.value = draft.content;
+    const recoveredDraft = readJson(draftKey, null);
+    if (recoveredDraft?.content?.trim()) {
+      const notes = history();
+      const matchingIndex = notes.findIndex((note) =>
+        (recoveredDraft.id && note.id === recoveredDraft.id) ||
+        (note.content === recoveredDraft.content && Math.abs(note.updatedAt - recoveredDraft.updatedAt) < 5000));
+      const recoveredNote = {
+        id: recoveredDraft.id || createId(),
+        content: recoveredDraft.content.trimEnd(),
+        createdAt: recoveredDraft.createdAt || Date.now(),
+        updatedAt: recoveredDraft.updatedAt || Date.now(),
+      };
+      if (matchingIndex >= 0) notes.splice(matchingIndex, 1);
+      notes.unshift(recoveredNote);
+      writeJson(historyKey, notes.slice(0, HISTORY_LIMIT));
+      removeStored(draftKey);
     }
+    editor.value = "";
+    currentId = null;
+    currentCreatedAt = Date.now();
     renderEditor();
     renderHistory();
 
