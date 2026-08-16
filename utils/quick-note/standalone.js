@@ -1,0 +1,1 @@
+"use strict";window.QuickNote.create({root:document.querySelector("#quick-note-root"),storageKey:"start-md:quick-notes:web",standalone:!0});
