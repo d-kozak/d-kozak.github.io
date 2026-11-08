@@ -22,6 +22,21 @@
 
 </div>
 
+## Private narrated presentations
+
+The generic [listening viewer](https://d-kozak.github.io/listen/) opens an encrypted file
+selected on the recipient's device. This repository hosts **viewer code only**: no
+presentation text, audio, encrypted payloads, or private access links belong here.
+A new presentation does not require a website change or deployment.
+
+The canonical implementation is in `d-kozak/scripts`, under `listening-viewer/`.
+Its [technical guide](https://github.com/d-kozak/scripts/blob/main/listening-viewer/ENCRYPTED.md)
+and the [sharing workflow](https://github.com/d-kozak/general-notes/blob/main/agentic-workflows/narrated-presentation-sharing.md)
+document packaging, destination approval, key separation, Android use, and validation
+(repository access may be required). Regenerate `listen/` with the scripts repository's
+`build_encrypted_host.py`; do not hand-edit the generated player. Publishing viewer
+updates is separate from preparing or transferring a presentation.
+
 ## User community
 
 The vibrant community of **al-folio** users is growing!
