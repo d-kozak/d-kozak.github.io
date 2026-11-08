@@ -9,3 +9,6 @@ _site
 Gemfile.lock
 node_modules/
 vendor
+# Private presentation payloads and keys are never website source.
+*.enc
+access-link.txt

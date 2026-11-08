@@ -205,6 +205,8 @@ kramdown:
 include: ["_pages"]
 exclude:
   - bin
+  - "**/*.enc"
+  - "**/access-link.txt"
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - docker-compose.yml

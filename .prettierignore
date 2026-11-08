@@ -3,3 +3,5 @@
 assets/css/main.scss
 assets/plotly/demo.html
 lighthouse_results/**
+# Generated from the canonical scripts/listening-viewer sources.
+listen/**

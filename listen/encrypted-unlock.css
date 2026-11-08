@@ -1,0 +1,10 @@
+[hidden] { display: none !important; }
+#unlock { max-width: 650px; margin: 6vh auto; padding: 24px; }
+#unlock h1 { font: 500 32px/1.2 Georgia, serif; }
+#unlock-form { display: grid; gap: 12px; margin-block: 28px; }
+#unlock-form label { font-weight: 650; }
+#unlock-form input { width: 100%; min-width: 0; border: 1px solid var(--line); padding: 12px; border-radius: 8px; background: white; }
+#unlock-form p { margin: 0 0 12px; }
+#file-help, #key-help, .privacy-note { font-size: 13px; color: var(--muted); }
+#unlock-status { overflow-wrap: anywhere; }
+#close-presentation { margin-bottom: 20px; }
