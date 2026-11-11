@@ -57,6 +57,12 @@ export function presentation(value) {
       if (b.kind === "steps" || b.kind === "columns") {
         return {kind: b.kind, title, items: nonempty(b.items).map(i => ({label: text(record(i).label), text: text(i.text)}))};
       }
+      if (b.kind === "prose") {
+        return {kind: b.kind, title, paragraphs: nonempty(b.paragraphs).map(p => text(p))};
+      }
+      if (b.kind === "diagram") {
+        return {kind: b.kind, title, text: text(b.text), caption: text(b.caption)};
+      }
       if (b.kind !== "table") throw new Error("Unsupported block kind.");
       const headers = nonempty(b.headers).map(v => text(v));
       const rows = nonempty(b.rows).map(row => {

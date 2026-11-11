@@ -18,6 +18,20 @@
     if (className) el.className = className;
     return el;
   };
+  // Deliberately limited inline emphasis; all authored content remains text, never HTML.
+  const richText = (el, text) => {
+    el.replaceChildren();
+    const pattern = /\*\*([^*\n]+)\*\*|`([^`\n]+)`/g;
+    let end = 0;
+    for (const match of text.matchAll(pattern)) {
+      el.append(document.createTextNode(text.slice(end, match.index)));
+      el.append(node(match[1] !== undefined ? "strong" : "code", match[1] ?? match[2]));
+      end = match.index + match[0].length;
+    }
+    el.append(document.createTextNode(text.slice(end)));
+    return el;
+  };
+  const richNode = (tag, text, className) => richText(node(tag, undefined, className), text);
   let saved = {};
   if (rememberProgress) {
     try { saved = JSON.parse(localStorage.getItem(storageKey)) || {}; } catch { /* Storage is optional for file URLs. */ }
@@ -72,14 +86,24 @@
   function renderBlock(block) {
     const section = node("section", undefined, "visual");
     section.append(node("h3", block.title));
-    if (block.kind === "table") {
+    if (block.kind === "prose") {
+      section.classList.add("prose-block");
+      block.paragraphs.forEach(paragraph => section.append(richNode("p", paragraph)));
+    } else if (block.kind === "diagram") {
+      const figure = node("figure", undefined, "diagram");
+      const pre = node("pre", block.text);
+      pre.tabIndex = 0;
+      pre.setAttribute("aria-label", block.title);
+      figure.append(pre, richNode("figcaption", block.caption));
+      section.append(figure);
+    } else if (block.kind === "table") {
       const wrapper = node("div", undefined, "table-wrap");
       const table = node("table");
       const caption = node("caption", block.title, "sr-only");
       const head = node("thead");
       const row = node("tr");
       block.headers.forEach(label => {
-        const cell = node("th", label);
+        const cell = richNode("th", label);
         cell.scope = "col";
         row.append(cell);
       });
@@ -87,7 +111,7 @@
       const body = node("tbody");
       block.rows.forEach(values => {
         const tr = node("tr");
-        values.forEach(value => tr.append(node("td", value)));
+        values.forEach(value => tr.append(richNode("td", value)));
         body.append(tr);
       });
       table.append(caption, head, body);
@@ -98,7 +122,7 @@
       block.items.forEach(item => {
         const card = node(block.kind === "steps" ? "li" : "div", undefined, block.kind === "steps" ? "step" : "column");
         const content = node("div");
-        content.append(node("strong", item.label), node("p", item.text));
+        content.append(node("strong", item.label), richNode("p", item.text));
         card.append(content);
         list.append(card);
       });
@@ -147,13 +171,13 @@
     $("eyebrow").textContent = chapter.eyebrow;
     $("chapter-meta").textContent = `Chapter ${index + 1} of ${chapters.length} · ${clock(duration())}`;
     $("chapter-title").textContent = chapter.title;
-    $("chapter-summary").textContent = chapter.summary;
-    $("takeaway").textContent = chapter.takeaway;
+    richText($("chapter-summary"), chapter.summary);
+    richText($("takeaway"), chapter.takeaway);
     $("now-playing").textContent = chapter.title;
     $("blocks").replaceChildren(...chapter.blocks.map(renderBlock));
     $("details").replaceChildren(...(chapter.details || []).map(item => {
       const detail = node("details");
-      detail.append(node("summary", item.title), node("p", item.text));
+      detail.append(node("summary", item.title), richNode("p", item.text));
       return detail;
     }));
     $("transcript").replaceChildren(...chapter.transcript.split(/\n\s*\n/).map(p => node("p", p)));
@@ -249,7 +273,7 @@
   $("continuous").addEventListener("change", persist);
   $("repeat").addEventListener("change", persist);
   document.addEventListener("keydown", event => {
-    if (event.altKey || event.ctrlKey || event.metaKey || event.target.closest("input,select,textarea,button,a,summary,[contenteditable]")) return;
+    if (event.altKey || event.ctrlKey || event.metaKey || event.target.closest("input,select,textarea,button,a,summary,pre,[contenteditable]")) return;
     if (event.code === "Space") { event.preventDefault(); $("play").click(); }
     if (event.code === "ArrowLeft") { event.preventDefault(); seekTo(audio.currentTime - 10); }
     if (event.code === "ArrowRight") { event.preventDefault(); seekTo(audio.currentTime + 10); }

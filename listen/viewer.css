@@ -7,4 +7,21 @@
   .player { left: calc((100% - 1640px) / 2); right: calc((100% - 1640px) / 2); }
   .skip-link { left: calc((100% - 1640px) / 2 + 10px); }
 }
+/* Reading-first blocks stay legible without playback or an expanded transcript. */
+.visual, .step > div, .column > div { min-width: 0; }
+.prose-block { max-width: 78ch; }
+.prose-block p { font-size: 16px; line-height: 1.75; margin: 12px 0; }
+.visual p, .chapter-heading, .takeaway, .reading, #transcript { overflow-wrap: anywhere; }
+.visual strong, .takeaway strong { color: var(--ink); }
+code { font: .92em ui-monospace, SFMono-Regular, Consolas, monospace;
+  background: var(--soft); color: #124d43; border-radius: 4px; padding: 1px 4px; }
+.diagram { margin: 0; min-width: 0; border: 1px solid #b6cdc4; border-radius: 12px;
+  overflow: hidden; background: #edf4f0; }
+.diagram pre { margin: 0; padding: 22px; overflow-x: auto; white-space: pre;
+  font: 14px/1.65 ui-monospace, SFMono-Regular, Consolas, monospace; color: #123e33; }
+.diagram pre:focus-visible { outline: 3px solid #df9b42; outline-offset: -3px; }
+.diagram figcaption { border-top: 1px solid #c8dbd2; padding: 14px 20px;
+  font-size: 14px; line-height: 1.6; overflow-wrap: anywhere; }
+#sources a { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+@media(max-width:720px) { .diagram pre { padding: 16px; font-size: 13px; } }
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
