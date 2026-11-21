@@ -63,6 +63,11 @@ export function presentation(value) {
       if (b.kind === "diagram") {
         return {kind: b.kind, title, text: text(b.text), caption: text(b.caption)};
       }
+      if (b.kind === "code") {
+        const language = text(b.language);
+        if (!/^[a-z][a-z0-9+_-]{0,31}$/.test(language)) throw new Error("Invalid code language.");
+        return {kind: b.kind, title, language, text: text(b.text), caption: text(b.caption)};
+      }
       if (b.kind !== "table") throw new Error("Unsupported block kind.");
       const headers = nonempty(b.headers).map(v => text(v));
       const rows = nonempty(b.rows).map(row => {
