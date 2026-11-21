@@ -1,4 +1,6 @@
 // Shared by the local packager and the browser. No presentation code is executable.
+import "./diagram-svg.js";
+
 export const MAGIC = new TextEncoder().encode("LVIEW001");
 export const MAX_PACKAGE_BYTES = 32 * 1024 * 1024;
 export const MAX_JSON_BYTES = 64 * 1024 * 1024;
@@ -62,6 +64,9 @@ export function presentation(value) {
       }
       if (b.kind === "diagram") {
         return {kind: b.kind, title, text: text(b.text), caption: text(b.caption)};
+      }
+      if (b.kind === "mermaid") {
+        return {kind: b.kind, title, source: text(b.source, 20000), text: text(b.text), caption: text(b.caption), drawing: globalThis.ListeningDiagram.validate(b.drawing)};
       }
       if (b.kind === "code") {
         const language = text(b.language);

@@ -24,6 +24,17 @@ code { font: .92em ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: 14px; line-height: 1.6; overflow-wrap: anywhere; }
 #sources a { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
 @media(max-width:720px) { .diagram pre { padding: 16px; font-size: 13px; } }
+/* Static Mermaid SVG images: no Mermaid runtime, executable markup, or remote assets.
+   Keep a neutral light canvas in both themes; do not distort the authored palette. */
+.mermaid-diagram { margin: 0; min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.mermaid-frame { overflow: auto; padding: 18px; background: #fff; }
+.mermaid-frame img { display: block; max-width: none; height: auto; margin: auto; }
+.mermaid-frame.fit img { max-width: 100%; }
+.diagram-controls { display: flex; align-items: center; gap: 12px; padding: 9px 16px; color: var(--muted); font-size: 12px; }
+.mermaid-frame:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }
+.mermaid-diagram figcaption { padding: 14px 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; overflow-wrap: anywhere; }
+.mermaid-diagram details { padding: 10px 20px; border-top: 1px solid var(--line); }
+.mermaid-diagram pre { overflow: auto; white-space: pre; font: 13px/1.6 ui-monospace, SFMono-Regular, Consolas, monospace; }
 /* Code is selectable literal text; coloring never carries meaning on its own. */
 .code-block { margin: 0; min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
 .code-language { padding: 7px 18px; border-bottom: 1px solid var(--line); color: var(--muted); font: 12px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace; }

@@ -145,6 +145,37 @@
       pre.setAttribute("aria-label", block.title);
       figure.append(pre, richNode("figcaption", block.caption));
       section.append(figure);
+    } else if (block.kind === "mermaid") {
+      const figure = node("figure", undefined, "mermaid-diagram");
+      const frame = node("div", undefined, "mermaid-frame");
+      frame.tabIndex = 0;
+      frame.setAttribute("role", "region");
+      frame.setAttribute("aria-label", `${block.title}: scrollable diagram`);
+      const image = node("img");
+      image.alt = block.text;
+      try {
+        image.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(ListeningDiagram.serialize(block.drawing));
+        image.width = Number(block.drawing.attrs.width);
+        image.height = Number(block.drawing.attrs.height);
+        image.addEventListener("error", () => frame.replaceChildren(node("pre", block.text)), {once: true});
+        frame.append(image);
+      } catch {
+        frame.append(node("pre", block.text));
+      }
+      const controls = node("div", undefined, "diagram-controls");
+      const fit = node("button", "Fit width");
+      fit.type = "button";
+      fit.setAttribute("aria-pressed", "false");
+      fit.addEventListener("click", () => {
+        const fitted = frame.classList.toggle("fit");
+        fit.setAttribute("aria-pressed", String(fitted));
+        fit.textContent = fitted ? "Actual size" : "Fit width";
+      });
+      controls.append(fit, node("span", "Full-size diagrams scroll within the frame."));
+      const alternative = node("details");
+      alternative.append(node("summary", "Text version and Mermaid source"), node("pre", block.text), node("pre", block.source));
+      figure.append(controls, frame, richNode("figcaption", block.caption), alternative);
+      section.append(figure);
     } else if (block.kind === "code") {
       const figure = node("figure", undefined, "code-block");
       const pre = node("pre");
@@ -334,7 +365,7 @@
   $("continuous").addEventListener("change", persist);
   $("repeat").addEventListener("change", persist);
   document.addEventListener("keydown", event => {
-    if (event.altKey || event.ctrlKey || event.metaKey || event.target.closest("input,select,textarea,button,a,summary,pre,[contenteditable]")) return;
+    if (event.altKey || event.ctrlKey || event.metaKey || event.target.closest("input,select,textarea,button,a,summary,pre,.mermaid-frame,[contenteditable]")) return;
     if (event.code === "Space") { event.preventDefault(); $("play").click(); }
     if (event.code === "ArrowLeft") { event.preventDefault(); seekTo(audio.currentTime - 10); }
     if (event.code === "ArrowRight") { event.preventDefault(); seekTo(audio.currentTime + 10); }
