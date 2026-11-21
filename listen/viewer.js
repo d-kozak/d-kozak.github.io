@@ -79,11 +79,13 @@
   }
   if (typeof saved !== "object" || Array.isArray(saved)) saved = {};
   $("theme").value = themes.has(saved.theme) ? saved.theme : "auto";
+  const diagramThemeUpdaters = [];
   function applyTheme() {
     const preference = $("theme").value;
     const resolved = preference === "auto" ? (themeMedia.matches ? "dark" : "light") : preference;
     document.documentElement.dataset.theme = resolved;
     document.documentElement.style.colorScheme = resolved;
+    diagramThemeUpdaters.forEach(updateDiagram => updateDiagram(resolved));
   }
   applyTheme();
   let index = 0;
@@ -154,9 +156,20 @@
       const image = node("img");
       image.alt = block.text;
       try {
-        image.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(ListeningDiagram.serialize(block.drawing));
-        image.width = Number(block.drawing.attrs.width);
-        image.height = Number(block.drawing.attrs.height);
+        const variants = {light: block.drawing};
+        if (block.darkDrawing) variants.dark = block.darkDrawing;
+        const urls = Object.fromEntries(Object.entries(variants).map(([theme, drawing]) =>
+          [theme, "data:image/svg+xml;charset=utf-8," + encodeURIComponent(ListeningDiagram.serialize(drawing))]));
+        const updateDiagram = theme => {
+          const chosen = variants[theme] ? theme : "light";
+          if (frame.dataset.diagramTheme === chosen) return;
+          frame.dataset.diagramTheme = chosen;
+          image.src = urls[chosen];
+          image.width = Number(variants[chosen].attrs.width);
+          image.height = Number(variants[chosen].attrs.height);
+        };
+        updateDiagram(document.documentElement.dataset.theme);
+        diagramThemeUpdaters.push(updateDiagram);
         image.addEventListener("error", () => frame.replaceChildren(node("pre", block.text)), {once: true});
         frame.append(image);
       } catch {
@@ -262,6 +275,7 @@
     richText($("chapter-summary"), chapter.summary);
     richText($("takeaway"), chapter.takeaway);
     $("now-playing").textContent = chapter.title;
+    diagramThemeUpdaters.length = 0;
     $("blocks").replaceChildren(...chapter.blocks.map(renderBlock));
     $("details").replaceChildren(...(chapter.details || []).map(item => {
       const detail = node("details");

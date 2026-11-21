@@ -25,9 +25,10 @@ code { font: .92em ui-monospace, SFMono-Regular, Consolas, monospace;
 #sources a { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
 @media(max-width:720px) { .diagram pre { padding: 16px; font-size: 13px; } }
 /* Static Mermaid SVG images: no Mermaid runtime, executable markup, or remote assets.
-   Keep a neutral light canvas in both themes; do not distort the authored palette. */
+   Build-time light/dark palettes follow the resolved presentation theme. */
 .mermaid-diagram { margin: 0; min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
-.mermaid-frame { overflow: auto; padding: 18px; background: #fff; }
+.mermaid-frame { overflow: auto; padding: 18px; background: #fff; color: #20302e; }
+.mermaid-frame[data-diagram-theme=dark] { background: var(--surface); color: var(--ink); }
 .mermaid-frame img { display: block; max-width: none; height: auto; margin: auto; }
 .mermaid-frame.fit img { max-width: 100%; }
 .diagram-controls { display: flex; align-items: center; gap: 12px; padding: 9px 16px; color: var(--muted); font-size: 12px; }

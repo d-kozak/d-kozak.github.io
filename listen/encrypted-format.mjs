@@ -66,7 +66,10 @@ export function presentation(value) {
         return {kind: b.kind, title, text: text(b.text), caption: text(b.caption)};
       }
       if (b.kind === "mermaid") {
-        return {kind: b.kind, title, source: text(b.source, 20000), text: text(b.text), caption: text(b.caption), drawing: globalThis.ListeningDiagram.validate(b.drawing)};
+        const block = {kind: b.kind, title, source: text(b.source, 20000), text: text(b.text), caption: text(b.caption), drawing: globalThis.ListeningDiagram.validate(b.drawing)};
+        // Old single-palette packages remain supported; validate either supplied variant.
+        if (Object.hasOwn(b, "darkDrawing")) block.darkDrawing = globalThis.ListeningDiagram.validate(b.darkDrawing);
+        return block;
       }
       if (b.kind === "code") {
         const language = text(b.language);
